@@ -1,0 +1,6 @@
+<Event id="24061" source="XXX" type="DutySentToBank" at="2019-04-02T07:29:44.637">
+  <DutyLogEntry>
+    <Duty ID="24061" />
+  </DutyLogEntry>
+  <TempStaffingODataRequestDetails TrustID="ASW" DutyID="713820" UnitCode="Dom Ward1" ShiftType="Day" PlannedStart="2019-04-03T07:30:00" PlannedEnd="2019-04-03T15:30:00" PlannedRestTime="30" ActualStart="0001-01-01T00:00:00" ActualEnd="0001-01-01T00:00:00" ActualRestTime="0" TempStaffBookingReasonName="Sickness" RequiredGradeTypeName="RN" RequiredGradeTypeCategoryName="Registered" FulfilmentLockedToNHSpWebPortal="False" />
+</Event>

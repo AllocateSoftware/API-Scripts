@@ -1,0 +1,227 @@
+{
+  "ids": [
+    {
+      "namespace": "ESR",
+      "id": "QQ123456C"
+    }
+  ],
+  "identification": {
+    "title": "Mr",
+    "forenames": ["Fred"],
+    "surname": "Smith",
+    "middleInitials": "string",
+    "knownAs": "string",
+    "gender": "male",
+    "dateOfBirth": "2019-12-04"
+  },
+  "personalInfo": {
+    "maidenName": "string",
+    "maritalStatus": "string",
+    "additionalID": "string",
+    "placeOfBirth": "string",
+    "nationality": "string",
+    "ethnicOrigin": "string",
+    "visaRequired": "string",
+    "disabledNo": "string",
+    "disability": "string"
+  },
+  "employmentDetails": {
+    "employmentStatus": "string",
+    "employeeType": "string",
+    "hireDetails": "string",
+    "dateJoinedNHS": "string",
+    "alAccrualPlan": "string",
+    "prevEmployer": "string",
+    "agencies": "string"
+  },
+  "workLocations": {
+    "homeTrust": "string",
+    "workingTrusts": "string"
+  },
+  "postings": [
+    {
+      "unit": "string",
+      "post": "string",
+      "postingType": "string",
+      "assignmentNumber": "string",
+      "team": "string",
+      "isPrimary": true
+    }
+  ],
+  "contracts": [
+    {
+      "staffGroup": "string",
+      "grade": "string",
+      "contract": "string",
+      "payscale": "string",
+      "contractType": "string",
+      "contractedTime": "string",
+      "defaultUnavailabilityHours": "string",
+      "wtdOptOut": true,
+      "salaryFrequency": "string",
+      "salaryAmount": 0
+    }
+  ],
+  "skills": [
+    {
+      "skillGroup": "string",
+      "cluster": "string",
+      "skill": "string",
+      "validity": {
+        "from": "2019-12-04T14:05:23Z",
+        "to": "2019-12-04T14:05:23Z"
+      },
+      "dateGained": "string",
+      "obtainedFromReason": "string",
+      "certificateNumber": "string",
+      "notes": "string"
+    }
+  ],
+  "specialties": [
+    {
+      "tempStaffSpeciality": "string",
+      "validity": {
+        "from": "2019-12-04T14:05:23Z",
+        "to": "2019-12-04T14:05:23Z"
+      },
+      "notes": "string"
+    }
+  ],
+  "attributes": [
+    {
+      "validity": {
+        "from": "2019-12-04T14:05:23Z",
+        "to": "2019-12-04T14:05:23Z"
+      },
+      "name": "string",
+      "value": "string"
+    }
+  ],
+  "visas": [
+    {
+      "number": "string",
+      "country": "string",
+      "issuingOffice": "string",
+      "type": "string",
+      "entries": "string",
+      "validity": {
+        "from": "2019-12-04T14:05:23Z",
+        "to": "2019-12-04T14:05:23Z"
+      }
+    }
+  ],
+  "workingRestrictions": [
+    {
+      "title": "string",
+      "validity": {
+        "from": "2019-12-04T14:05:23Z",
+        "to": "2019-12-04T14:05:23Z"
+      },
+      "hoursOfWork": {
+        "mon": {
+          "from": "07:00",
+          "to": "10:50"
+        },
+        "tue": {
+          "from": "07:00",
+          "to": "10:50"
+        },
+        "wed": {
+          "from": "07:00",
+          "to": "10:50"
+        },
+        "thu": {
+          "from": "07:00",
+          "to": "10:50"
+        },
+        "fri": {
+          "from": "07:00",
+          "to": "10:50"
+        },
+        "sat": {
+          "from": "07:00",
+          "to": "10:50"
+        },
+        "sun": {
+          "from": "07:00",
+          "to": "10:50"
+        }
+      },
+      "defaultLeaveHours": {
+        "useWorkingDay": "string",
+        "mondayTime": "string",
+        "tuesdayTime": "string",
+        "wednesdayTime": "string",
+        "fridayTime": "string",
+        "saturdayTime": "string",
+        "sundayTime": "string"
+      },
+      "restrictions": {
+        "effectiveFrom": "string",
+        "daysPerWeek": "string",
+        "maxDaysPerWeek": "string",
+        "maxShiftsPerWeek": "string",
+        "maxConsecutiveDays": "string",
+        "maxConsecutiveDaysRequested": "string",
+        "maxWorkTimePerDay": "string",
+        "maxDurationPerShift": "string",
+        "additionalHoursPerWeek": "string",
+        "maxOvertimePerDay": "string",
+        "maxOvertimePerWeek": "string",
+        "maxOvertimePerCalendarMonth": "string",
+        "wtdDayStart": "string",
+        "wtdWeekDayStart": "string",
+        "wtdWeekTimeStart": "string",
+        "minBreakBetweenShifts": 0,
+        "notes": "string"
+      }
+    }
+  ],
+  "availabilities": {
+    "Availability": [
+      {
+        "date": "string",
+        "availabilityType": "string",
+        "start": "string",
+        "end": "string",
+        "doubleOfOccurrences": 0,
+        "notes": "string"
+      }
+    ],
+    "NoBank": [
+      {
+        "start": "string",
+        "doubleOfOccurances": 0,
+        "notes": "string"
+      }
+    ]
+  },
+  "personalPattern": {
+    "duty": [
+      {
+        "shiftGroup": "string",
+        "shift": "string",
+        "rosterLocation": "string",
+        "team": "string",
+        "activityCategory": "string",
+        "activityBenchmark": "string",
+        "activityType": "string",
+        "activityProfile": "string",
+        "work": "string",
+        "start": "string",
+        "end": "string",
+        "monthlyReccurrance": true
+      }
+    ],
+    "unavailability": [
+      {
+        "unavailabilityGroup": "string",
+        "unavailabilityReason": "string",
+        "work": "string",
+        "start": "string",
+        "end": "string",
+        "externalUnavailabilityIdentifier": "string"
+      }
+    ]
+  }
+}
