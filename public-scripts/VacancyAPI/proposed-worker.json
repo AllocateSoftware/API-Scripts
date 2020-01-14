@@ -1,0 +1,12 @@
+{
+    "personId": "string",
+    "engagementRoute": "substantive",
+    "agencyId": "string",
+    "cost": 0,
+    "cancellationCosts": [
+      {
+        "afterDate": "2019-09-23T15:48:09Z",
+        "amount": 0
+      }
+    ]
+  }

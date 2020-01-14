@@ -1,0 +1,23 @@
+{
+  "id": "D6540039-97B6-4D38-9837-29AA1C02302F",
+  "when": {
+    "planned": {
+      "from": "2019-09-23T15:48:09Z",
+      "to": "2019-09-23T15:48:09Z"
+    }
+  },
+  "where": {
+    "trustId": "string",
+    "location": {
+      "id": "string",
+      "name": "string"
+    }
+  },
+  "reason": "string",
+  "personRequirements": {
+    "grade": "string",
+    "gradeType": "string",
+    "gradeTypeCategory": "string",
+    "gender": "string"
+  }
+}
