@@ -23,9 +23,11 @@ print("Token: %s" % bearer)
 
 # Generate randon proposal id
 customerCode = "EPSON"
+employeeId = "james.jones@test.pl"
+assignNumber = "8601872"
 
 # Call the API
-srvEndpoint = "{}?customerCode={}".format(API_ADDRESS, customerCode)
+srvEndpoint = "{}?customerCode={}&employeeId={}&assignmentNumber={}".format(API_ADDRESS, customerCode, employeeId, assignNumber)
 print("URI: %s" % srvEndpoint)
 
 
