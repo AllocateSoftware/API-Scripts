@@ -6,13 +6,12 @@ import json
 import requests
 
 CLIENT_ID = "9E5aqUf1aW5toUHDZlQWETcoJLZOWYMT"
-CLIENT_SECRET = input("Enter the CLIENT_SECRET? ")
-AUDIENCE = "http://healthsuite.allocatesoftware.com/api/v1/activityproxyapi"
+CLIENT_SECRET = "k-Pp7FbN_ikTYhv6YSMXYHzeJ4nD9lzmroMtnNG216xGb58N35OuwGP_S9AZ5XHP"
+AUDIENCE = "http://healthsuite.allocatesoftware.com/api/v1/eligibleworkersproxyapi"
 
+API_ADDRESS="https://interop-eligibleworkers-gateway.allocate-dev.co.uk/api/v1/eligibleworkers"
 
-API_ADDRESS="https://interop-activityproxy-gateway.allocate-dev.co.uk/api/v1/activities"
-
-# Get access token for the vacancy API
+# Get access token for the API
 tokenQuery = testUtil.getTokenQuery(
     clientId=CLIENT_ID, clientSecret=CLIENT_SECRET, audience=AUDIENCE)
 token = testUtil.getToken(tokenQuery)
@@ -23,11 +22,10 @@ print("Token: %s" % bearer)
 
 # Generate randon proposal id
 customerCode = "EPSON"
-employeeId = "james.jones@test.pl"
-assignNumber = "8601872"
+
 
 # Call the API
-srvEndpoint = "{}?customerCode={}&employeeId={}&assignmentNumber={}".format(API_ADDRESS, customerCode, employeeId, assignNumber)
+srvEndpoint = "{}?customerCode={}".format(API_ADDRESS, customerCode)
 print("URI: %s" % srvEndpoint)
 
 
