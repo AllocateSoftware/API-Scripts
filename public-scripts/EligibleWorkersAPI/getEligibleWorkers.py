@@ -6,7 +6,7 @@ import json
 import requests
 
 CLIENT_ID = "9E5aqUf1aW5toUHDZlQWETcoJLZOWYMT"
-CLIENT_SECRET = "k-Pp7FbN_ikTYhv6YSMXYHzeJ4nD9lzmroMtnNG216xGb58N35OuwGP_S9AZ5XHP"
+CLIENT_SECRET = input("Enter the CLIENT_SECRET? ")
 AUDIENCE = "http://healthsuite.allocatesoftware.com/api/v1/eligibleworkersproxyapi"
 
 API_ADDRESS="https://interop-eligibleworkers-gateway.allocate-dev.co.uk/api/v1/eligibleworkers"
